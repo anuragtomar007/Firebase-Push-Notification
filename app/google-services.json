@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "646261759707",
+    "firebase_url": "https://fir-push-notification-f26cd.firebaseio.com",
+    "project_id": "fir-push-notification-f26cd",
+    "storage_bucket": "fir-push-notification-f26cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646261759707:android:c378be41fb3bd6ad",
+        "android_client_info": {
+          "package_name": "com.example.anurag.firebasepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646261759707-pgol2vmoik7bvkui0jvr9fe1qraut11n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi2PkqfcS7DnK4H8HP08wzH1FhanJKGuk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

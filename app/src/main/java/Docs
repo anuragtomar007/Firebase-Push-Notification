@@ -1,0 +1,32 @@
+
+                        STEPS TO USE FIREBASE PUSH NOTIFICATION
+
+1- Create a new Android Project.
+
+2- Go to "console.firebase.google.com" and there create a new project.Select Project Name and
+   country.
+
+3- After that select "Add Firebase to your Android App". Copy your package name from
+   android studio and paste there.No need to select SHA-1.
+
+4- Click the "ADD APP/REGISTER" button,and then download "google-services.json".Copy this file
+   and paste it in your "app" folder in your project..
+   (Show in files option can be used for pasting if right click paste not working)
+
+5- Configuring Gradle Files:
+    a) Update Project level gradle file by pasting the following under dependency:
+        classpath 'com.google.gms:google-services:3.0.0'
+    b) Update the App level gradle file by pasting the following under dependency:
+        compile 'com.google.firebase:firebase-messaging:9.4.0'
+        compile 'com.google.firebase:firebase-core:9.4.0
+    And also add below line at the end of Gradle file:
+        apply plugin: 'com.google.gms.google-services'
+
+6- Create Two Classes named MyFirebaseInstanceIdService and MyFirebaseMessagingService.
+
+7- Add the Internet Permission in Manifest file. Also add these Services to ur Manifest file.
+
+8- Again go to "console.firebase.google.com" and under your project there select
+   "Notification / Cloud Messaging". On selecting that you will be prompted to send your
+   message to the device.Follow the instruction and send the message.After that a notification
+   will be generated on the device using the app.
